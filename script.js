@@ -150,7 +150,8 @@ checKoutBtn.addEventListener("click", function(){
     const phone = "62994279139";
 
     // Abrir o WhatsApp com a mensagem e informações adicionais
-    window.open(`https://wa.me/${phone}?text=${message}%20Informações%20Adicionais:%20${addressInput.value}`, "_blank");
+    window.open(`mailto:progressuswebsolutions@gmail.com?subject=Assunto&body=${message}%20Informações%20Adicionais:%20${addressInput.value}`, "_blank");
+
 
     // Limpar o carrinho após o pedido ser enviado
     cart = [];
